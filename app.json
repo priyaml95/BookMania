@@ -1,14 +1,15 @@
 {
   "expo": {
-    "name": "books-app",
-    "slug": "books-app",
+    "name": "BookMania",
+    "slug": "bookmania",
+    "privacy": "public",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splashscreen.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#F0914E"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -20,9 +21,18 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.modest.bookmania",
+      "versionCode": 1,
+      "softwareKeyboardLayoutMode": "pan",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#F0914E"
+      },
+      "config": {
+        "googleSignIn": {
+          "apiKey": "AIzaSyB56bN915OpuzmzWzi2mXOGRe5uM_-klmk",
+          "certificateHash": "925A403B1237F562F4702A74FA5B3A30EDCA2138"
+        }
       }
     },
     "web": {
