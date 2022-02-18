@@ -103,9 +103,10 @@ const LoginScreen = props => {
             const expirationDate = new Date(expiryDate);
             if (expirationDate <= new Date() || !token || !userId) {
                 setAutoLogin(false);
+            } else {
+                dispatch(authActions.authenticate(userId, token));
+                props.navigation.navigate('Home');
             }
-            dispatch(authActions.authenticate(userId, token));
-            props.navigation.navigate('Home');
         }
     }, []);
 
