@@ -149,7 +149,7 @@ export const loginUsingFacebook = () => {
                 saveDataToStorage(userCredentials.localId, userCredentials.idToken, expirationDate);
             }
             else {
-                console.log("Login using Facebook failed!");
+                throw new Error("Facebook sign in dismissed!");
             }
         } catch (err) {
             throw err;
