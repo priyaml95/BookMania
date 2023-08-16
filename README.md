@@ -2,10 +2,6 @@
 
 BookMania is an android app that contains a plethora of books for you to explore.
 
-<p align="center">
-  <img src="https://github.com/priyaml95/BookMania/blob/master/assets/images/BookMania.png?raw=true" width="450" >
-</p>
-
 ## About
 Discover new releases, best sellers and personalised recommendations across genres like romance, science fiction, mystery and thrillers, self-help, religion, non-fiction and more.
 
